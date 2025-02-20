@@ -5,4 +5,3 @@ public class Main {
         System.out.println(Fibonacci.findFibonacci(Integer.parseInt(args[0])));
     }
 }
-
