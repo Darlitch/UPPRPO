@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.nsu.FibonacciTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-20T16:26:05" hostname="DESKTOP-37VIEOQ" time="0.014">
+  <properties/>
+  <testcase name="findFibonacci()" classname="ru.nsu.FibonacciTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
