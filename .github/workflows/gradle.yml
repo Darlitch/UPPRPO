@@ -33,6 +33,8 @@ jobs:
 
     - name: Grant execute permission to Gradle wrapper
       run: chmod +x lab1-2/gradlew
+    - name: Fix permissions for Gradle cache
+      run: sudo chown -R $USER:$USER ~/.gradle || true
 
 
     - name: Build with Gradle Wrapper
@@ -72,6 +74,8 @@ jobs:
         distribution: 'adopt'
     - name: Grant execute permission to Gradle wrapper
       run: chmod +x lab1-2/gradlew
+    - name: Fix permissions for Gradle cache
+      run: sudo chown -R $USER:$USER ~/.gradle || true
 
     # Generates and submits a dependency graph, enabling Dependabot Alerts for all project dependencies.
     # See: https://github.com/gradle/actions/blob/main/dependency-submission/README.md
