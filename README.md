@@ -1,5 +1,6 @@
 # Управление производственным процессом разработки программного обеспечения
 ## Lab 1-2
+[![Java CI with Gradle](https://github.com/Darlitch/UPPRPO/actions/workflows/gradle.yml/badge.svg)](https://github.com/Darlitch/UPPRPO/actions/workflows/gradle.yml)
 <div>
 Разработать небольшую программу, подключить библиотеку для юнит-тестирования, написать тесты и настроить GitHub Actions (либо аналог) для их автоматического запуска при каждом push или pull request в основную ветку.
 
