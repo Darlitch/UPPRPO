@@ -70,6 +70,8 @@ jobs:
       with:
         java-version: '23'
         distribution: 'adopt'
+    - name: Grant execute permission to Gradle wrapper
+      run: chmod +x lab1-2/gradlew
 
     # Generates and submits a dependency graph, enabling Dependabot Alerts for all project dependencies.
     # See: https://github.com/gradle/actions/blob/main/dependency-submission/README.md
