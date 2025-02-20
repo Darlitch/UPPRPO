@@ -25,8 +25,7 @@ jobs:
       with:
         java-version: '23'
         distribution: 'adopt'
-        cache: gradle
-# ab
+
     # Configure Gradle for optimal use in GitHub Actions, including caching of downloaded dependencies.
     # See: https://github.com/gradle/actions/blob/main/setup-gradle/README.md
     - name: Setup Gradle
@@ -41,6 +40,7 @@ jobs:
       with:
         arguments: build --scan
         build-root-directory: lab1-2
+        cache: gradle
 
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
     # If your project does not have the Gradle Wrapper configured, you can use the following configuration to run Gradle with a specified version.
