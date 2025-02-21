@@ -11,7 +11,7 @@ class FibonacciTest {
     void findFibonacci() {
         Fibonacci.findFibonacci(0);
         Assertions.assertEquals(0, Fibonacci.findFibonacci(0));
-        Assertions.assertEquals(15, Fibonacci.findFibonacci(1));
+        Assertions.assertEquals(1, Fibonacci.findFibonacci(1));
         Assertions.assertEquals(1, Fibonacci.findFibonacci(2));
         Assertions.assertEquals(2, Fibonacci.findFibonacci(3));
         Assertions.assertEquals(3, Fibonacci.findFibonacci(4));
