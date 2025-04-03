@@ -15,15 +15,11 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      
-        
       - name: Generate Changelog based on Conventional Commits
         uses: smichard/conventional_changelog@2.0.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.Serpen }}
 
       - name: Set Git User Info
         run: |
