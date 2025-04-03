@@ -18,14 +18,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create initial tag if missing
-        run: |
-          if ! git describe --tags --abbrev=0 2>/dev/null; then
-            git config --global user.name "GitHub Actions"
-            git config --global user.email "actions@github.com"
-            git tag v0.0.0
-            echo "Initial tag created"
-          fi
+      
         
       - name: Generate Changelog based on Conventional Commits
         uses: smichard/conventional_changelog@2.0.0
