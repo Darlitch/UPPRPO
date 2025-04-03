@@ -6,10 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## v0.0.0 (2025-04-03)
 
+### Bug Fixes
+- check [`9cea1a0`](https://github.com/Darlitch/UPPRPO/commit/9cea1a0)
+
 ### Documentation
+- :robot: changelog file generated [`34c3147`](https://github.com/Darlitch/UPPRPO/commit/34c3147)
 - :robot: changelog file generated [`7c5dee8`](https://github.com/Darlitch/UPPRPO/commit/7c5dee8)
 
 ### Other
+- hotfix/update-сonventional-сommits [`1ccac4d`](https://github.com/Darlitch/UPPRPO/commit/1ccac4d)
+- hotfix/update-сonventional-сommits [`69826be`](https://github.com/Darlitch/UPPRPO/commit/69826be)
+- hotfix/upgrade-сonventional-сommits [`2d106be`](https://github.com/Darlitch/UPPRPO/commit/2d106be)
 - hotfix/check-сonventional-сommits [`2108def`](https://github.com/Darlitch/UPPRPO/commit/2108def)
 - feature/add-сonventional-сommits [`3b6e8ab`](https://github.com/Darlitch/UPPRPO/commit/3b6e8ab)
 - feature/add-сonventional-сommits [`d4589a4`](https://github.com/Darlitch/UPPRPO/commit/d4589a4)
