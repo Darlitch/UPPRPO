@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
         
       - name: Generate Changelog based on Conventional Commits
         uses: smichard/conventional_changelog@2.0.0
