@@ -24,6 +24,7 @@ jobs:
             git tag v0.0.0
             echo "Initial tag created"
           fi
+          
         
       - name: Generate Changelog based on Conventional Commits
         uses: smichard/conventional_changelog@2.0.0
