@@ -28,6 +28,7 @@ jobs:
           git add CHANGELOG.md
           git commit -m "docs: :robot: changelog file generated" || echo "No changes to commit"
           git push
+          
   
   build-and-push:
     needs: changelog
