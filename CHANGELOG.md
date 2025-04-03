@@ -4,12 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
-## v0.0.0 (2025-04-03)
+## Unreleased changes
+
+### Feature
+- initial commit [`00eaff7`](https://github.com/Darlitch/UPPRPO/commit/00eaff7)
+
+## v0.0.1 (2025-04-03)
+
+### Feature
+- initial commit [`bfe2304`](https://github.com/Darlitch/UPPRPO/commit/bfe2304)
+- initial commit [`0f78849`](https://github.com/Darlitch/UPPRPO/commit/0f78849)
 
 ### Bug Fixes
 - check [`9cea1a0`](https://github.com/Darlitch/UPPRPO/commit/9cea1a0)
 
 ### Documentation
+- :robot: changelog file generated [`08e0927`](https://github.com/Darlitch/UPPRPO/commit/08e0927)
 - :robot: changelog file generated [`34c3147`](https://github.com/Darlitch/UPPRPO/commit/34c3147)
 - :robot: changelog file generated [`7c5dee8`](https://github.com/Darlitch/UPPRPO/commit/7c5dee8)
 
