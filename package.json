@@ -1,16 +1,9 @@
 {
-  "branches": ["main"],
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
-    "@semantic-release/github",
-    [
-      "@semantic-release/git",
-      {
-        "assets": ["CHANGELOG.md"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
-    ]
-  ]
+  "version": "0.0.0-development",
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "release": {
+    "branches": ["main"]
+  }
 }
