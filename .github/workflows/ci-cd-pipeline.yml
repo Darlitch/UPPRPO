@@ -1,4 +1,4 @@
-name: Docker Build and Push to GHCR
+name: CI/CD Pipeline
 
 on:
   push:
@@ -10,10 +10,13 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     permissions:
-      packages: write 
+      packages: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Необходимо для semantic-release
+      
       - name: Set lowercase repository info
         id: repo-info
         run: |
@@ -21,6 +24,7 @@ jobs:
           REPO=$(echo "${{ github.event.repository.name }}" | tr '[:upper:]' '[:lower:]')
           echo "owner=${OWNER}" >> $GITHUB_OUTPUT
           echo "repo=${REPO}" >> $GITHUB_OUTPUT
+      
       - name: Login to GHCR
         uses: docker/login-action@v3
         with:
@@ -32,7 +36,30 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: lab1-2
-          push: true
+          push: ${{ github.ref == 'refs/heads/main' }}
           tags: |
             ghcr.io/${{ steps.repo-info.outputs.owner }}/${{ steps.repo-info.outputs.repo }}:latest
             ghcr.io/${{ steps.repo-info.outputs.owner }}/${{ steps.repo-info.outputs.repo }}:${{ github.sha }}
+
+  release:
+    needs: build-and-push
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
