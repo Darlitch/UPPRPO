@@ -13,10 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
 
 ### Documentation
+- :robot: changelog file generated [`3ea08bf`](https://github.com/Darlitch/UPPRPO/commit/3ea08bf)
 - :robot: changelog file generated [`db0dd48`](https://github.com/Darlitch/UPPRPO/commit/db0dd48)
 - :robot: changelog file generated [`4a56573`](https://github.com/Darlitch/UPPRPO/commit/4a56573)
 
 ### Other
+- Update package.json [`60dd802`](https://github.com/Darlitch/UPPRPO/commit/60dd802)
 - Create .releaserc.json [`5fae694`](https://github.com/Darlitch/UPPRPO/commit/5fae694)
 
 ## v0.0.1 (2025-04-03)
