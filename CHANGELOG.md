@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Feature
 - initial commit [`00eaff7`](https://github.com/Darlitch/UPPRPO/commit/00eaff7)
 
+### Bug Fixes
+- check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
+
+### Documentation
+- :robot: changelog file generated [`4a56573`](https://github.com/Darlitch/UPPRPO/commit/4a56573)
+
 ## v0.0.1 (2025-04-03)
 
 ### Feature
