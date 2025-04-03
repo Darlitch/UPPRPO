@@ -19,7 +19,7 @@ jobs:
       - name: Generate Changelog based on Conventional Commits
         uses: smichard/conventional_changelog@2.0.0
         with:
-          GITHUB_TOKEN: ${{ secrets.Serpen }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set Git User Info
         run: |
