@@ -16,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - check [`0a72c66`](https://github.com/Darlitch/UPPRPO/commit/0a72c66)
 
 ### Documentation
+- :robot: changelog file generated [`830e900`](https://github.com/Darlitch/UPPRPO/commit/830e900)
 - :robot: changelog file generated [`f53e895`](https://github.com/Darlitch/UPPRPO/commit/f53e895)
 - :robot: changelog file generated [`d0a0c2f`](https://github.com/Darlitch/UPPRPO/commit/d0a0c2f)
 - :robot: changelog file generated [`11f3306`](https://github.com/Darlitch/UPPRPO/commit/11f3306)
@@ -24,6 +25,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - :robot: changelog file generated [`5e6b377`](https://github.com/Darlitch/UPPRPO/commit/5e6b377)
 
 ### Other
+- Update package.json [`b2ace71`](https://github.com/Darlitch/UPPRPO/commit/b2ace71)
 - Update ci-cd-pipeline.yml [`1db1294`](https://github.com/Darlitch/UPPRPO/commit/1db1294)
 - Rename packageOLD.json to package.json [`b71d366`](https://github.com/Darlitch/UPPRPO/commit/b71d366)
 
