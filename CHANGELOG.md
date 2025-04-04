@@ -16,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
 
 ### Documentation
+- :robot: changelog file generated [`5e6b377`](https://github.com/Darlitch/UPPRPO/commit/5e6b377)
 - :robot: changelog file generated [`e9eb456`](https://github.com/Darlitch/UPPRPO/commit/e9eb456)
 - :robot: changelog file generated [`f0d19d0`](https://github.com/Darlitch/UPPRPO/commit/f0d19d0)
 - :robot: changelog file generated [`2d5b6cc`](https://github.com/Darlitch/UPPRPO/commit/2d5b6cc)
@@ -25,6 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - :robot: changelog file generated [`4a56573`](https://github.com/Darlitch/UPPRPO/commit/4a56573)
 
 ### Other
+- Rename packageOLD.json to package.json [`b71d366`](https://github.com/Darlitch/UPPRPO/commit/b71d366)
 - a [`7db2887`](https://github.com/Darlitch/UPPRPO/commit/7db2887)
 - Rename package.json to packageOLD.json [`19805b9`](https://github.com/Darlitch/UPPRPO/commit/19805b9)
 - Update package.json [`60dd802`](https://github.com/Darlitch/UPPRPO/commit/60dd802)
