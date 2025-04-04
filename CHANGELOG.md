@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Darlitch/UPPRPO/compare/v1.1.0...v1.2.0) (2025-04-04)
+
+
+### Features
+
+* semantic release now work ([baa1fa7](https://github.com/Darlitch/UPPRPO/commit/baa1fa7adee06f0cb92002e7f59e29995dee904f))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -129,4 +136,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Update README.md [`40cddd3`](https://github.com/Darlitch/UPPRPO/commit/40cddd3)
 - Update README.md [`dfb8a38`](https://github.com/Darlitch/UPPRPO/commit/dfb8a38)
 - Initial commit [`dc4b73c`](https://github.com/Darlitch/UPPRPO/commit/dc4b73c)
-
