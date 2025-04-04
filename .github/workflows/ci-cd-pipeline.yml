@@ -43,16 +43,23 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Необходимо для semantic-release
-      
+          fetch-depth: 0
+          ref: main
+  
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-      
+  
+      - name: Sync with remote
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git pull origin main --rebase
+  
       - name: Install dependencies
         run: npm ci
-      
+  
       - name: Release
         run: npx semantic-release
         env:
