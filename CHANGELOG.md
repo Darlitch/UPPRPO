@@ -1,18 +1,3 @@
-# [1.1.0](https://github.com/Darlitch/UPPRPO/compare/v1.0.0...v1.1.0) (2025-04-04)
-
-
-### Bug Fixes
-
-* check ([c840e1b](https://github.com/Darlitch/UPPRPO/commit/c840e1b36168fa0e8701ffe49efdde6eb4cf759a))
-* check ([0a72c66](https://github.com/Darlitch/UPPRPO/commit/0a72c6670b12993449fce33284715c365210ff96))
-
-
-### Features
-
-* initial commit ([cafdddf](https://github.com/Darlitch/UPPRPO/commit/cafdddf9038ed775137191d94277cc93f25cdb84))
-* initial commit ([15d7448](https://github.com/Darlitch/UPPRPO/commit/15d7448ac8d4032f14dfa3f471ecdd315f3b5d6e))
-* semantic release now work ([c96c952](https://github.com/Darlitch/UPPRPO/commit/c96c9523079c9c957c8ee885d3a56f4c4b662997))
-
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -20,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) and to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ## Unreleased changes
+
+### Feature
+- semantic release now work [`baa1fa7`](https://github.com/Darlitch/UPPRPO/commit/baa1fa7)
+
+## v1.1.0 (2025-04-04)
 
 ### Feature
 - initial commit [`cafdddf`](https://github.com/Darlitch/UPPRPO/commit/cafdddf)
@@ -31,6 +21,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - check [`0a72c66`](https://github.com/Darlitch/UPPRPO/commit/0a72c66)
 
 ### Documentation
+- :robot: changelog file generated [`da4c86b`](https://github.com/Darlitch/UPPRPO/commit/da4c86b)
 - :robot: changelog file generated [`830e900`](https://github.com/Darlitch/UPPRPO/commit/830e900)
 - :robot: changelog file generated [`f53e895`](https://github.com/Darlitch/UPPRPO/commit/f53e895)
 - :robot: changelog file generated [`d0a0c2f`](https://github.com/Darlitch/UPPRPO/commit/d0a0c2f)
@@ -38,6 +29,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - :robot: changelog file generated [`6ad0d57`](https://github.com/Darlitch/UPPRPO/commit/6ad0d57)
 - :robot: changelog file generated [`4497a5c`](https://github.com/Darlitch/UPPRPO/commit/4497a5c)
 - :robot: changelog file generated [`5e6b377`](https://github.com/Darlitch/UPPRPO/commit/5e6b377)
+
+### Chore
+- 1.1.0 [skip ci] [`a31faa9`](https://github.com/Darlitch/UPPRPO/commit/a31faa9)
 
 ### Other
 - Update package.json [`b2ace71`](https://github.com/Darlitch/UPPRPO/commit/b2ace71)
@@ -135,3 +129,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Update README.md [`40cddd3`](https://github.com/Darlitch/UPPRPO/commit/40cddd3)
 - Update README.md [`dfb8a38`](https://github.com/Darlitch/UPPRPO/commit/dfb8a38)
 - Initial commit [`dc4b73c`](https://github.com/Darlitch/UPPRPO/commit/dc4b73c)
+
