@@ -11,12 +11,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - initial commit [`00eaff7`](https://github.com/Darlitch/UPPRPO/commit/00eaff7)
 
 ### Bug Fixes
+- check [`0a72c66`](https://github.com/Darlitch/UPPRPO/commit/0a72c66)
 - release in yml [`637dcad`](https://github.com/Darlitch/UPPRPO/commit/637dcad)
 - add release in yml [`5d23a49`](https://github.com/Darlitch/UPPRPO/commit/5d23a49)
 - updatre package [`10e7bfc`](https://github.com/Darlitch/UPPRPO/commit/10e7bfc)
 - check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
 
 ### Documentation
+- :robot: changelog file generated [`11f3306`](https://github.com/Darlitch/UPPRPO/commit/11f3306)
 - :robot: changelog file generated [`6ad0d57`](https://github.com/Darlitch/UPPRPO/commit/6ad0d57)
 - :robot: changelog file generated [`4497a5c`](https://github.com/Darlitch/UPPRPO/commit/4497a5c)
 - :robot: changelog file generated [`5e6b377`](https://github.com/Darlitch/UPPRPO/commit/5e6b377)
