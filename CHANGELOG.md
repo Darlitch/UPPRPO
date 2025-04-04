@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/Darlitch/UPPRPO/compare/v1.0.0...v1.1.0) (2025-04-04)
+
+
+### Bug Fixes
+
+* check ([c840e1b](https://github.com/Darlitch/UPPRPO/commit/c840e1b36168fa0e8701ffe49efdde6eb4cf759a))
+* check ([0a72c66](https://github.com/Darlitch/UPPRPO/commit/0a72c6670b12993449fce33284715c365210ff96))
+
+
+### Features
+
+* initial commit ([cafdddf](https://github.com/Darlitch/UPPRPO/commit/cafdddf9038ed775137191d94277cc93f25cdb84))
+* initial commit ([15d7448](https://github.com/Darlitch/UPPRPO/commit/15d7448ac8d4032f14dfa3f471ecdd315f3b5d6e))
+* semantic release now work ([c96c952](https://github.com/Darlitch/UPPRPO/commit/c96c9523079c9c957c8ee885d3a56f4c4b662997))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -120,4 +135,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Update README.md [`40cddd3`](https://github.com/Darlitch/UPPRPO/commit/40cddd3)
 - Update README.md [`dfb8a38`](https://github.com/Darlitch/UPPRPO/commit/dfb8a38)
 - Initial commit [`dc4b73c`](https://github.com/Darlitch/UPPRPO/commit/dc4b73c)
-
