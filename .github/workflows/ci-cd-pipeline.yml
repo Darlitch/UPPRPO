@@ -93,9 +93,5 @@ jobs:
           tags: |
             ghcr.io/${{ steps.repo-info.outputs.owner }}/${{ steps.repo-info.outputs.repo }}:latest
             ghcr.io/${{ steps.repo-info.outputs.owner }}/${{ steps.repo-info.outputs.repo }}:${{ github.sha }}
-      
-      - name: Release
-        run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
           
