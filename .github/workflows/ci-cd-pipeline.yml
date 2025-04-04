@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate Changelog based on Conventional Commits
         uses: smichard/conventional_changelog@2.0.0
@@ -32,9 +34,34 @@ jobs:
           git commit -m "docs: :robot: changelog file generated" || echo "No changes to commit"
           git push
           
+  release:
+    needs: changelog
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Необходимо для semantic-release
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
   build-and-push:
-    needs: changelog
+    needs: release
     if: success() && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
