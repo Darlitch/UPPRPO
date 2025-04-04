@@ -7,23 +7,41 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## Unreleased changes
 
 ### Feature
+- initial commit [`cafdddf`](https://github.com/Darlitch/UPPRPO/commit/cafdddf)
 - initial commit [`15d7448`](https://github.com/Darlitch/UPPRPO/commit/15d7448)
 - semantic release now work [`c96c952`](https://github.com/Darlitch/UPPRPO/commit/c96c952)
-- initial commit [`00eaff7`](https://github.com/Darlitch/UPPRPO/commit/00eaff7)
 
 ### Bug Fixes
+- check [`c840e1b`](https://github.com/Darlitch/UPPRPO/commit/c840e1b)
 - check [`0a72c66`](https://github.com/Darlitch/UPPRPO/commit/0a72c66)
-- release in yml [`637dcad`](https://github.com/Darlitch/UPPRPO/commit/637dcad)
-- add release in yml [`5d23a49`](https://github.com/Darlitch/UPPRPO/commit/5d23a49)
-- updatre package [`10e7bfc`](https://github.com/Darlitch/UPPRPO/commit/10e7bfc)
-- check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
 
 ### Documentation
+- :robot: changelog file generated [`f53e895`](https://github.com/Darlitch/UPPRPO/commit/f53e895)
 - :robot: changelog file generated [`d0a0c2f`](https://github.com/Darlitch/UPPRPO/commit/d0a0c2f)
 - :robot: changelog file generated [`11f3306`](https://github.com/Darlitch/UPPRPO/commit/11f3306)
 - :robot: changelog file generated [`6ad0d57`](https://github.com/Darlitch/UPPRPO/commit/6ad0d57)
 - :robot: changelog file generated [`4497a5c`](https://github.com/Darlitch/UPPRPO/commit/4497a5c)
 - :robot: changelog file generated [`5e6b377`](https://github.com/Darlitch/UPPRPO/commit/5e6b377)
+
+### Other
+- Update ci-cd-pipeline.yml [`1db1294`](https://github.com/Darlitch/UPPRPO/commit/1db1294)
+- Rename packageOLD.json to package.json [`b71d366`](https://github.com/Darlitch/UPPRPO/commit/b71d366)
+
+## v1.0.0 (2025-04-04)
+
+### Feature
+- initial commit [`00eaff7`](https://github.com/Darlitch/UPPRPO/commit/00eaff7)
+- initial commit [`bfe2304`](https://github.com/Darlitch/UPPRPO/commit/bfe2304)
+- initial commit [`0f78849`](https://github.com/Darlitch/UPPRPO/commit/0f78849)
+
+### Bug Fixes
+- release in yml [`637dcad`](https://github.com/Darlitch/UPPRPO/commit/637dcad)
+- add release in yml [`5d23a49`](https://github.com/Darlitch/UPPRPO/commit/5d23a49)
+- updatre package [`10e7bfc`](https://github.com/Darlitch/UPPRPO/commit/10e7bfc)
+- check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
+- check [`9cea1a0`](https://github.com/Darlitch/UPPRPO/commit/9cea1a0)
+
+### Documentation
 - :robot: changelog file generated [`e9eb456`](https://github.com/Darlitch/UPPRPO/commit/e9eb456)
 - :robot: changelog file generated [`f0d19d0`](https://github.com/Darlitch/UPPRPO/commit/f0d19d0)
 - :robot: changelog file generated [`2d5b6cc`](https://github.com/Darlitch/UPPRPO/commit/2d5b6cc)
@@ -31,30 +49,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - :robot: changelog file generated [`3ea08bf`](https://github.com/Darlitch/UPPRPO/commit/3ea08bf)
 - :robot: changelog file generated [`db0dd48`](https://github.com/Darlitch/UPPRPO/commit/db0dd48)
 - :robot: changelog file generated [`4a56573`](https://github.com/Darlitch/UPPRPO/commit/4a56573)
-
-### Other
-- Update ci-cd-pipeline.yml [`1db1294`](https://github.com/Darlitch/UPPRPO/commit/1db1294)
-- Rename packageOLD.json to package.json [`b71d366`](https://github.com/Darlitch/UPPRPO/commit/b71d366)
-- a [`7db2887`](https://github.com/Darlitch/UPPRPO/commit/7db2887)
-- Rename package.json to packageOLD.json [`19805b9`](https://github.com/Darlitch/UPPRPO/commit/19805b9)
-- Update package.json [`60dd802`](https://github.com/Darlitch/UPPRPO/commit/60dd802)
-- Create .releaserc.json [`5fae694`](https://github.com/Darlitch/UPPRPO/commit/5fae694)
-
-## v0.0.1 (2025-04-03)
-
-### Feature
-- initial commit [`bfe2304`](https://github.com/Darlitch/UPPRPO/commit/bfe2304)
-- initial commit [`0f78849`](https://github.com/Darlitch/UPPRPO/commit/0f78849)
-
-### Bug Fixes
-- check [`9cea1a0`](https://github.com/Darlitch/UPPRPO/commit/9cea1a0)
-
-### Documentation
 - :robot: changelog file generated [`08e0927`](https://github.com/Darlitch/UPPRPO/commit/08e0927)
 - :robot: changelog file generated [`34c3147`](https://github.com/Darlitch/UPPRPO/commit/34c3147)
 - :robot: changelog file generated [`7c5dee8`](https://github.com/Darlitch/UPPRPO/commit/7c5dee8)
 
 ### Other
+- a [`7db2887`](https://github.com/Darlitch/UPPRPO/commit/7db2887)
+- Rename package.json to packageOLD.json [`19805b9`](https://github.com/Darlitch/UPPRPO/commit/19805b9)
+- Update package.json [`60dd802`](https://github.com/Darlitch/UPPRPO/commit/60dd802)
+- Create .releaserc.json [`5fae694`](https://github.com/Darlitch/UPPRPO/commit/5fae694)
 - hotfix/update-сonventional-сommits [`1ccac4d`](https://github.com/Darlitch/UPPRPO/commit/1ccac4d)
 - hotfix/update-сonventional-сommits [`69826be`](https://github.com/Darlitch/UPPRPO/commit/69826be)
 - hotfix/upgrade-сonventional-сommits [`2d106be`](https://github.com/Darlitch/UPPRPO/commit/2d106be)
