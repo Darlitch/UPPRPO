@@ -10,9 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - initial commit [`00eaff7`](https://github.com/Darlitch/UPPRPO/commit/00eaff7)
 
 ### Bug Fixes
+- updatre package [`10e7bfc`](https://github.com/Darlitch/UPPRPO/commit/10e7bfc)
 - check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
 
 ### Documentation
+- :robot: changelog file generated [`9584990`](https://github.com/Darlitch/UPPRPO/commit/9584990)
 - :robot: changelog file generated [`3ea08bf`](https://github.com/Darlitch/UPPRPO/commit/3ea08bf)
 - :robot: changelog file generated [`db0dd48`](https://github.com/Darlitch/UPPRPO/commit/db0dd48)
 - :robot: changelog file generated [`4a56573`](https://github.com/Darlitch/UPPRPO/commit/4a56573)
