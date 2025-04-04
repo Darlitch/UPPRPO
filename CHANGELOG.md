@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## Unreleased changes
 
 ### Feature
+- semantic release now work [`c96c952`](https://github.com/Darlitch/UPPRPO/commit/c96c952)
 - initial commit [`00eaff7`](https://github.com/Darlitch/UPPRPO/commit/00eaff7)
 
 ### Bug Fixes
@@ -16,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - check [`01be218`](https://github.com/Darlitch/UPPRPO/commit/01be218)
 
 ### Documentation
+- :robot: changelog file generated [`6ad0d57`](https://github.com/Darlitch/UPPRPO/commit/6ad0d57)
 - :robot: changelog file generated [`4497a5c`](https://github.com/Darlitch/UPPRPO/commit/4497a5c)
 - :robot: changelog file generated [`5e6b377`](https://github.com/Darlitch/UPPRPO/commit/5e6b377)
 - :robot: changelog file generated [`e9eb456`](https://github.com/Darlitch/UPPRPO/commit/e9eb456)
