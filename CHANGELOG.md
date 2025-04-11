@@ -1,10 +1,3 @@
-# [1.3.0](https://github.com/Darlitch/UPPRPO/compare/v1.2.0...v1.3.0) (2025-04-09)
-
-
-### Features
-
-* upgrade gradle for sonarcloude ([a4f1b7f](https://github.com/Darlitch/UPPRPO/commit/a4f1b7fc284c58c6f284f6531237ab9f8d2ec905))
-
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -13,8 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased changes
 
+### Bug Fixes
+- Update ci-cd-pipeline.yml [`e8ef139`](https://github.com/Darlitch/UPPRPO/commit/e8ef139)
+
+## v1.3.0 (2025-04-09)
+
 ### Feature
 - upgrade gradle for sonarcloude [`a4f1b7f`](https://github.com/Darlitch/UPPRPO/commit/a4f1b7f)
+
+### Documentation
+- :robot: changelog file generated [`7b23d21`](https://github.com/Darlitch/UPPRPO/commit/7b23d21)
+
+### Chore
+- 1.3.0 [skip ci] [`ecc551e`](https://github.com/Darlitch/UPPRPO/commit/ecc551e)
 
 ## v1.2.0 (2025-04-04)
 
@@ -147,3 +151,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Update README.md [`40cddd3`](https://github.com/Darlitch/UPPRPO/commit/40cddd3)
 - Update README.md [`dfb8a38`](https://github.com/Darlitch/UPPRPO/commit/dfb8a38)
 - Initial commit [`dc4b73c`](https://github.com/Darlitch/UPPRPO/commit/dc4b73c)
+
