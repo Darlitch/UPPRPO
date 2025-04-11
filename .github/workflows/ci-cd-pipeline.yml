@@ -44,6 +44,12 @@ jobs:
         with:
           java-version: 23
           distribution: 'zulu' # Alternative distribution options are available
+          
+      - name: Grant execute permission to Gradle wrapper
+        run: chmod +x lab1-2/gradlew
+      - name: Fix permissions for Gradle cache
+        run: sudo chown -R $USER:$USER ~/.gradle || true
+        
       - name: Cache SonarQube packages
         uses: actions/cache@v4
         with:
