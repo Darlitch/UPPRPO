@@ -7,7 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## Unreleased changes
 
 ### Bug Fixes
+- Update ci-cd-pipeline.yml [`086f0ae`](https://github.com/Darlitch/UPPRPO/commit/086f0ae)
 - Update ci-cd-pipeline.yml [`e8ef139`](https://github.com/Darlitch/UPPRPO/commit/e8ef139)
+
+### Documentation
+- :robot: changelog file generated [`2fca975`](https://github.com/Darlitch/UPPRPO/commit/2fca975)
 
 ## v1.3.0 (2025-04-09)
 
