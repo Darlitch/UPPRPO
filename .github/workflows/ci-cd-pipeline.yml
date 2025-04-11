@@ -65,7 +65,7 @@ jobs:
       - name: Build and analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./lab1-2/gradlew build sonar --info
+        run: ./lab1-2/gradlew -p lab1-2 build sonar --info
           
   release:
     needs: sonar-analysis
