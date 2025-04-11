@@ -1,3 +1,13 @@
+## [1.3.1](https://github.com/Darlitch/UPPRPO/compare/v1.3.0...v1.3.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* Update ci-cd-pipeline.yml ([28bcb88](https://github.com/Darlitch/UPPRPO/commit/28bcb8854f4b93cc3449cebf42f6d51152342a3f))
+* Update ci-cd-pipeline.yml ([0c08dad](https://github.com/Darlitch/UPPRPO/commit/0c08dad2059cf6a330970ea19f32a9c61a29cc9d))
+* Update ci-cd-pipeline.yml ([086f0ae](https://github.com/Darlitch/UPPRPO/commit/086f0aec72fdd64ed1c8bd58a3146a87a84a5b88))
+* Update ci-cd-pipeline.yml ([e8ef139](https://github.com/Darlitch/UPPRPO/commit/e8ef13912ac50d3df0112d6c81cb7d6bbf1cca23))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -159,4 +169,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Update README.md [`40cddd3`](https://github.com/Darlitch/UPPRPO/commit/40cddd3)
 - Update README.md [`dfb8a38`](https://github.com/Darlitch/UPPRPO/commit/dfb8a38)
 - Initial commit [`dc4b73c`](https://github.com/Darlitch/UPPRPO/commit/dc4b73c)
-
